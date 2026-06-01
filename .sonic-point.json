@@ -1,0 +1,8 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "loginEndpoint": "/api/auth/login",
+  "email": "admin@agritech.com",
+  "password": "admin123",
+  "tokenField": "data.token",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhNDBmMGEwNi1kNDU4LTRiNjAtOTVhMS1mYTE2NmM5MjQ3OTkiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3Nzg2Mzg0MTEsImV4cCI6MTc3OTI0MzIxMX0.uzkEILwfMzw1qNMv-6cV-xSW8aIB7H2WteF5TmyKWnw"
+}
