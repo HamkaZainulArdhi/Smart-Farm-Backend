@@ -15,6 +15,7 @@ import notifikasiRoutes from "./routes/notifikasiRoutes.js";
 import rekomendasiRoutes from "./routes/rekomendasiRoutes.js";
 import laporanRoutes from "./routes/laporanRoutes.js";
 import adminRoutes from "./routes/adminRoutes.js";
+import plantAnalysisRoutes from "./routes/plantAnalysisRoutes.js";
 
 // Initialize environment
 dotenv.config();
@@ -46,6 +47,7 @@ app.use("/api/notifikasi", notifikasiRoutes);
 app.use("/api/rekomendasi", rekomendasiRoutes);
 app.use("/api/laporan", laporanRoutes);
 app.use("/api/admin", adminRoutes);
+app.use("/api/plant-analysis", plantAnalysisRoutes);
 
 // 404 Handler
 app.use((req, res) => {
