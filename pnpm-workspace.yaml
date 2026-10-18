@@ -1,0 +1,7 @@
+allowBuilds:
+  '@scarf/scarf': true
+  bcrypt: true
+minimumReleaseAgeExclude:
+  - sonicpoint@2.9.10
+overrides:
+  sonic-point: link:../../../SKRIPSI/SonicPoint/packages/cli

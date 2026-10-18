@@ -1,8 +1,22 @@
 {
-  "baseUrl": "http://localhost:3000",
+  "baseUrl": "http://localhost:3001",
   "loginEndpoint": "/api/auth/login",
   "email": "admin@agritech.com",
-  "password": "12345",
+  "password": "admin123",
   "tokenField": "data.token",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhNDBmMGEwNi1kNDU4LTRiNjAtOTVhMS1mYTE2NmM5MjQ3OTkiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3ODE1MTA1NzksImV4cCI6MTc4MjExNTM3OX0.tLcsLZshBjtvIGH3e7BKh6uUCjdwaoGaAoUK3I_A254"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhNDBmMGEwNi1kNDU4LTRiNjAtOTVhMS1mYTE2NmM5MjQ3OTkiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3OTE5Njg0OTksImV4cCI6MTc5MjU3MzI5OX0.a0hBiGpvUI8ZGEWv4UnYE-_YsCs3IzHvctILPGRVvc8",
+  "refs": {
+    "lahan": {
+      "id": "1ae722ce-620b-42ef-a9df-2c9091a6ab67",
+      "source": "GET /api/lahan",
+      "host": "http://localhost:3001",
+      "capturedAt": "2026-10-18T09:09:36.694Z"
+    },
+    "notifikasi": {
+      "id": "5020faf2-3cb9-4cfb-9e8a-76c1120e7843",
+      "source": "GET /api/notifikasi",
+      "host": "http://localhost:3001",
+      "capturedAt": "2026-10-17T10:47:26.679Z"
+    }
+  }
 }
